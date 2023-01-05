@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Testimonial = () => {
+export default function Testimonial() {
   return (
-    <div>Testimonial</div>
+    <div>
+      
+    </div>
   )
 }

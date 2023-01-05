@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const AboutMe = () => {
+export default function AboutMe() {
   return (
-    <div>AboutMe</div>
+    <div>
+      
+    </div>
   )
 }
