@@ -11,16 +11,16 @@ export default function  () {
                 <div className='colz'>
                     <div className='colz-icon'>
                         <a href='https://www.instagram.com/i.am.sohini/'>
-                            <i class="fa-brands fa-instagram"></i>
+                            <i className="fa-brands fa-instagram"></i>
                         </a>
                         <a href=''>
-                            <i class="fa-brands fa-twitter"></i>
+                            <i className="fa-brands fa-twitter"></i>
                         </a>
                         <a href='https://www.linkedin.com/in/sohini-sen-96ab951a2/'>
-                            <i class="fa-brands fa-linkedin"></i>
+                            <i className="fa-brands fa-linkedin"></i>
                         </a>
                         <a href='https://github.com/mimi544'>
-                            <i class="fa-brands fa-github"></i>
+                            <i className="fa-brands fa-github"></i>
                         </a>
                     </div>
                 </div>
