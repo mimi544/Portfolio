@@ -1,5 +1,6 @@
 import React from 'react'
-import Typical from 'react-typical'
+import Typewriter from 'typewriter-effect';
+
 import './profile.css'
 
 export default function  () {
@@ -34,12 +35,13 @@ export default function  () {
                         {""}
                         <h1>
                             {""}
-                            <Typical
-                               loop={Infinity}
-                               steps={[
-                                "Fresher 💻",1000,
-                                "Web-developer 🌐",1000,
-                               ]}
+                            <Typewriter
+                                options={{
+                                    strings: ['Fresher 💻', 'Web-developer 🌐'],
+                                    cursor: ['....'],
+                                    autoStart: true,
+                                    loop: true,
+                                }}
                             />
                         </h1>
                         <span className='profile-role-tagline'>
