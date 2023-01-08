@@ -70,7 +70,7 @@ export default function Header() {
           <FontAwesomeIcon className="header-hmburger-bars" icon={faBars} />
         </div>
         <div className="header-logo">
-          <span>EHIZEEX~</span>
+          <span>PORTFOLIO~</span>
         </div>
         <div
           className={
