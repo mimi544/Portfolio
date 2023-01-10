@@ -98,8 +98,8 @@ export default function Resume(props) {
 			<ResumeHeading
 				heading={"Santragachi Kedarnath Institution For Girls'"}
 				subHeading={"HIGHER SECONDARY (H.S)"}
-				fromDate={"2017"}
-				toDate={"2015"}
+				fromDate={"2015"}
+				toDate={"2017"}
 			/>
 		</div>,
 		/*WORK EXPERIENCE*/
