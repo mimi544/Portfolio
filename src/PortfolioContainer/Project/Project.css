@@ -1,4 +1,4 @@
-/* .Project-section {
+.Project-section {
     padding: 80px 0 80px;
     background-image: url("../../../src/assets/Project/bg-1.jpg");
     background-position: center;
@@ -20,24 +20,14 @@
 }
 
 .project-card {
-    display: flex;
+    /* display: flex; */
     background-color: azure;
-    width: 100%;
+    /* width: 100%; */
+
     padding: 30px;
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 50px;
     box-shadow: 0 0 20px -2px #1f2235;
 }
-
-.project-card1 .Project-options .highlighted-btn1 {
-    margin: 0 0 0 28px;
-}
-
-.project-card1 .Project-options .highlighted-btn1:hover {
-    margin: 0 0 0 28px;
-    background-color: cornsilk;
-    color: #111;
-}
-
 
 
 .footer-image {
@@ -55,12 +45,11 @@
     height: 130px;
 }
 
-.Project-section .Proj-item {
+/* .Project-section .Proj-item {
     background-color: white;
     padding: 30px;
     border-radius: 50px 50px 50px 0px;
 }
-
 .Project-section .Proj-item p {
     font-size: 16px;
     line-height: 26px;
@@ -68,24 +57,20 @@
     margin: 0 0 10px;
     font-style: italic;
 }
-
 .Project-section .Proj-item p .fa-quote-left {
     margin-right: 5px;
     color: tomato;
 }
-
 .Project-section .Proj-item p .fa-quote-right {
     margin-left: 5px;
     color: tomato;
 }
-
 .Project-section .Project-info {
     position: relative;
     padding-left: 80px;
     padding-top: 5px;
     min-height: 60px;
 }
-
 .Project-section .Project-info img {
     height: 70px;
     width: 70px;
@@ -96,14 +81,12 @@
     border-radius: 50%;
     position: absolute;
 }
-
 .Project-section .Project-info h5 {
     font-size: 16px;
     font-weight: 600;
     line-height: 26px;
     margin: 0 0 2px;
 }
-
 .Project-section .Project-info p {
     font-size: 16px;
     line-height: 26px;
