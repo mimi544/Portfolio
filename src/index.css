@@ -100,6 +100,7 @@ body ::-webkit-scrollbar-thumb {
   font-size: 12px;
   background-color: #1f2235;
 }
+
 /* @media only screen and (max-width: 414px) {
   .primary-btn {
     font-size: 13px;
@@ -108,7 +109,8 @@ body ::-webkit-scrollbar-thumb {
 
 .primary-btn:hover {
   color: aliceblue;
-  border: 2px solid #66dafd;
+  border: 2px solid #45a7f7;
+  ;
   background-color: #1f2235;
 }
 
@@ -116,8 +118,10 @@ body ::-webkit-scrollbar-thumb {
   color: var(--white);
 
   font-size: 12px;
-  background-color: #66dafd;
+  background-color: #45a7f7;
+  ;
 }
+
 @media only screen and (max-width: 568px) {
   .highlighted-btn {
     z-index: -900;
@@ -133,6 +137,3 @@ body ::-webkit-scrollbar-thumb {
   transform: translateY(80px);
   transition: all 0.8s ease;
 }
-
-
-

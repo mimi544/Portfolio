@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
@@ -48,12 +48,12 @@ export default function Resume(props) {
 	];
 
 	const programmingSkillDetails = [
-		{ skill: "PHP", rayingPercentage: 85 },
-		{ skill: "HTML", rayingPercentage: 85 },
-		{ skill: "CSS", rayingPercentage: 85 },
-		{ skill: "REACT JS", rayingPercentage: 85 },
-		{ skill: "NODE JS", rayingPercentage: 85 },
-		{ skill: "MONGODB", rayingPercentage: 85 },
+		{ skill: "PHP", ratingPercentage: 85 },
+		{ skill: "HTML", ratingPercentage: 85 },
+		{ skill: "CSS", ratingPercentage: 85 },
+		{ skill: "REACT JS", ratingPercentage: 85 },
+		{ skill: "NODE JS", ratingPercentage: 85 },
+		{ skill: "MONGODB", ratingPercentage: 85 },
 	];
 
 	const projectDetails = [
@@ -144,7 +144,7 @@ export default function Resume(props) {
 					<div className="skill-percentage">
 						<div
 							style={{ width: skill.ratingPercentage + "%" }}
-							className="active-percentage"
+							className="active-percentage-bar"
 						></div>
 					</div>
 				</div>
