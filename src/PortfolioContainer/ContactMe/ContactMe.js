@@ -113,7 +113,7 @@ export default function ContactMe(props) {
 							value={email}
 						/>
 						<label htmlFor="message">Message</label>
-						<input
+						<textarea
 							type="text"
 							onChange={handleMessage}
 							value={message}
