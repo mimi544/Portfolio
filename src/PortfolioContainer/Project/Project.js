@@ -77,15 +77,24 @@ export default function Project(props) {
 												{projectDetail.description}
 											</div>
 											<div className="project-options">
-												<button className="btn primary-btn">
-													Gitlink
-												</button>
 												<a
-													href="SOHINI_SEN_8240150887.pdf"
-													download="SOHINI_SEN_8240150887.pdf"
+													href={projectDetail.gitlink}
+													target="_blank"
+													rel="noreferrer"
+												>
+													<button className="btn primary-btn">
+														Gitlink
+													</button>
+												</a>
+												<a
+													href={
+														projectDetail.livelink
+													}
+													target="_blank"
+													rel="noreferrer"
 												>
 													<button className="btn highlighted-btn">
-														Live Demo
+														Live Link
 													</button>
 												</a>
 											</div>

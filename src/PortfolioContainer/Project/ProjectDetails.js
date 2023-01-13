@@ -5,6 +5,8 @@ export const ProjectDetails = [
 		technologies: "",
 		img: "lady.png",
 		description: "",
+		gitlink: "https://github.com/mimi544",
+		livelink: "https://sohinisen.netlify.app",
 	},
 	{
 		id: "2",
@@ -12,6 +14,8 @@ export const ProjectDetails = [
 		technologies: "",
 		img: "mike.png",
 		description: "",
+		gitlink: "https://github.com/mimi544",
+		livelink: "https://sohinisen.netlify.app",
 	},
 	{
 		id: "3",
@@ -19,5 +23,7 @@ export const ProjectDetails = [
 		technologies: "",
 		img: "man.png",
 		description: "",
+		gitlink: "https://github.com/mimi544",
+		livelink: "https://sohinisen.netlify.app",
 	},
 ];
