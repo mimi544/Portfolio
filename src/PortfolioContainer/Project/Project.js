@@ -76,7 +76,6 @@ export default function Project(props) {
 											<div className="description">
 												{projectDetail.description}
 											</div>
-											<div className="project-options">
 												<a
 													href={projectDetail.gitlink}
 													target="_blank"
@@ -99,7 +98,6 @@ export default function Project(props) {
 												</a>
 											</div>
 										</div>
-									</div>
 								);
 							})}
 						</OwlCarousel>
