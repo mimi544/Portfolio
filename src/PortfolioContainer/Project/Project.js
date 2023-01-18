@@ -60,9 +60,6 @@ export default function Project(props) {
 										key={projectDetail.id}
 									>
 										<div className="project-card">
-											<div className="id">
-												{projectDetail.id}
-											</div>
 											<img
 												src={require(`../../../src/assets/Project/${projectDetail.img}`)}
 												alt="No internet connection"
@@ -76,6 +73,7 @@ export default function Project(props) {
 											<div className="description">
 												{projectDetail.description}
 											</div>
+											<div className="project-options">
 												<a
 													href={projectDetail.gitlink}
 													target="_blank"
@@ -98,6 +96,7 @@ export default function Project(props) {
 												</a>
 											</div>
 										</div>
+									</div>
 								);
 							})}
 						</OwlCarousel>
