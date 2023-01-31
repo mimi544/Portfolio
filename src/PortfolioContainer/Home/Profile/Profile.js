@@ -1,9 +1,9 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-
+import ScrollService from "../../../utilities/ScrollService";
 import "./profile.css";
 
-export default function () {
+export default function Profile() {
 	return (
 		<div className="profile-container">
 			<div className="profile-parent">
@@ -45,7 +45,7 @@ export default function () {
 											"Fresher 💻",
 											"Web-developer 🌐",
 										],
-										cursor: ["...."],
+										cursor: [".."],
 										autoStart: true,
 										loop: true,
 									}}
@@ -57,9 +57,13 @@ export default function () {
 						</span>
 					</div>
 					<div className="profile-options">
-						<button className="btn primary-btn">
-							{""}
-							Hire Me{""}
+						<button
+							className="btn primary-btn"
+							onClick={() =>
+								ScrollService.scrollService.scrollToHireMe()
+							}
+						>
+							Hire Me
 						</button>
 						<a
 							href="SOHINI_SEN_8240150887.pdf"

@@ -14,7 +14,7 @@ export default function AboutMe(props) {
 
 	const SCREEN_CONSTSANTS = {
 		description:
-			"Interested in Web-development. I have knowledge about React.js and Node.js.I am looking for an oppertunity to implement this knowlege in real life projects and ready to face the challenges",
+			"Interested in Web-development. I have knowledge about React.js and Node.js.I am looking for an oppertunity to implement this knowledge in real life projects and ready to face the challenges",
 		highlights: {
 			bullets: [
 				"React.js",
@@ -59,7 +59,14 @@ export default function AboutMe(props) {
 							{renderHighlight()}
 						</div>
 						<div className="about-me-options">
-							<button className="btn primary-btn">Hire Me</button>
+							<button
+								className="btn primary-btn"
+								onClick={() =>
+									ScrollService.scrollService.scrollToHireMe()
+								}
+							>
+								Hire Me
+							</button>
 							<a
 								href="SOHINI_SEN_8240150887.pdf"
 								download="SOHINI_SEN_8240150887.pdf"

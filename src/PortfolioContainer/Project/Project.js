@@ -33,6 +33,7 @@ export default function Project(props) {
 		dots: true,
 		autoplay: true,
 		smartSpeed: 1000,
+		autoplayHoverPause: true,
 		responsive: {
 			0: {
 				items: 1,
@@ -53,12 +54,9 @@ export default function Project(props) {
 				<div className="container">
 					<div className="row">
 						<OwlCarousel className="owl-carousel" {...options}>
-							{ProjectDetails.map((projectDetail) => {
+							{ProjectDetails.map((projectDetail, index) => {
 								return (
-									<div
-										className="col-lg-12"
-										key={projectDetail.id}
-									>
+									<div className="col-lg-12" key={index}>
 										<div className="project-card">
 											<img
 												src={require(`../../../src/assets/Project/${projectDetail.img}`)}

@@ -9,7 +9,16 @@ export default class ScrollService {
 	constructor() {
 		window.addEventListener("scroll", this.checkCurrentScreenUnderViewPort);
 	}
-
+	scrollToHireMe = () => {
+		let contactMeScreen = document.getElementById("ContactMe");
+		if (!contactMeScreen) return;
+		contactMeScreen.scrollIntoView({ behavior: "smooth" });
+	};
+	scrollToHome = () => {
+		let HomeScreen = document.getElementById("Home");
+		if (!HomeScreen) return;
+		HomeScreen.scrollIntoView({ behavior: "smooth" });
+	};
 	isElementInView = (elem, type) => {
 		let rec = elem.getBoundingClientRect();
 		let elementTop = rec.top;

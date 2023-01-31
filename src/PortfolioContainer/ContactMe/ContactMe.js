@@ -17,6 +17,7 @@ export default function ContactMe(props) {
 		if (screen.fadeInScreen !== props.id) return;
 		Animations.animations.fadeInScreen(props.id);
 	};
+
 	const fadeInSubscription =
 		ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
 
